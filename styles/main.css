@@ -6,8 +6,8 @@
 }
 
 .home {
-    text-align: left;
-    background-color: #6386e4;
+    text-align: center;
+    background-color: #DA291C;
     height: 100px;
     width: 100%;
 }
@@ -27,7 +27,7 @@
 }
 
 .product-card {
-
+    border: 2px solid #DA291C;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -36,26 +36,28 @@
 .product-image {
     max-width: 300px;
     max-width: 300px;
-    /* justify-content: center;
-    align-items: center; */
+    cursor: pointer
 }
 
-.product-card:hover {
+.addToCardButton:hover {
     transform: scale(1.05);
+    cursor: pointer
 }
 
 .product-title {
     font-size: 16px;
     margin: 10px 0;
-    
 }
 
 .product-price {
     color: rgb(0, 0, 0);
 }
-
+/* .headerButton {
+    display: flex;
+    text-align: right;
+} */
 .addToCardButton {
-    background-color: #6386e4;
+    background-color: #FFD700;
     border: #6386e4;
     color: white;
     height: 30px;
