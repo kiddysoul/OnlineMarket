@@ -4,26 +4,72 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
 .home {
-    text-align: center;
+    text-align: left;
     background-color: #6386e4;
     height: 100px;
     width: 100%;
 }
+
 .home{
     color: white;
     font-family: 'Comic Sans MS', serif;
     font-size: 45px;
 }
-.wrapper {
-    margin-top: 5%;
-    margin: 10% 10%;
+
+.product-grid {
     display: grid;
-    grid-gap:5%;
-    grid-auto-rows: 300px;
-    grid-template-columns: repeat(4,300px);
-    justify-content: space-around;
+    grid-template-columns: repeat(3, 400px); /* 3 колонки */
+    gap: 20px; /* Промежуток между карточками */
+    padding: 20px; /* Отступы вокруг сетки */
+    justify-content: center;
 }
-.grid {
-    border: 5px solid #6386e4;
+
+.product-card {
+
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-image {
+    max-width: 300px;
+    max-width: 300px;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-title {
+    font-size: 16px;
+    margin: 10px 0;
+    
+}
+
+.product-price {
+    color: rgb(0, 0, 0);
+}
+
+.addToCardButton {
+    background-color: #6386e4;
+    border: #6386e4;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 7px;
+}
+ 
+.footer {
+    height: 200px;
+    width: 100%;
+    background-color: #333333;
+}
+
+.footer {
+    color: white;
+    font-size: 25px;
 }
